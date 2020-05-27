@@ -1,16 +1,15 @@
 # Build_a_Bot
 
-## About the Project
 This is a Microverse - Ruby Capstone Project. I built a Telegram bot uses commands entered by the user to fetch information as required by the user.
 
 ## How the bot works
-The bot requires user to enter commands presented in the menu to access information provided by the bot.
+- The bot requires user to enter commands presented in the menu to access information provided by the bot.
 
 ## Testing the bot
-To run the test cases, type (rspec spec/example_spec.rb) in your terminal.
+- To run the test cases, type (rspec spec/bot_spec.rb) in your terminal.
 
 ## Development
-Clone the project [here]() if you need to add more features.
+- Clone the project [here](https://github.com/Cathella/Build_a_Bot/tree/display_menu) if you need to add more features.
 
 ## Built With
 This project was built using these technologies.
