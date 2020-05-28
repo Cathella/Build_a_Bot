@@ -1,8 +1,26 @@
+
 require 'telegram/bot'
+require 'net/http'
+require 'json'
+require_relative '../bin/bot.rb'
 
 class Inspire
-  quotes = [
-    'Better to light a candle than wasting your time cursing the darkness',
-    'If something is worth doing, it is worth doing right. Do everything you do to the best of your ability'
-  ]
+  @values = nil
+
+  def initialize
+    @values = make_the_request
+  end
+
+  def make_the_request
+    url = 'https://type.fit/api/quotes'
+    uri = URI(url)
+    response = Net::HTTP.get(uri)
+    response = JSON.parse(response)
+    response
+  end
+
+  def select_random
+    @values = @values.sample
+    @values
+  end
 end

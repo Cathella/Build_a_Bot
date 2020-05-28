@@ -1,8 +1,8 @@
 require 'telegram_bot'
 require_relative 'bad_code_day.rb'
 
-# token = '1188580696:AAEsv6FuEoGg2o7TrhutCKgDVVd770m-VZU'
-# bot = TelegramBot.new(token: token)
+token = '1188580696:AAEsv6FuEoGg2o7TrhutCKgDVVd770m-VZU'
+bot = TelegramBot.new(token: token)
 
 class Bot
   def initialize
