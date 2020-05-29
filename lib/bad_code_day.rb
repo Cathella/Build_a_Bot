@@ -2,7 +2,7 @@
 require 'telegram/bot'
 require 'net/http'
 require 'json'
-require_relative '../bin/bot.rb'
+require_relative 'bot.rb'
 
 class Inspire
   @values = nil
