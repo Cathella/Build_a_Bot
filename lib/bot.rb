@@ -1,7 +1,7 @@
 require 'telegram_bot'
 require_relative 'bad_code_day.rb'
 
-class Bot
+class TelegramBot
   def initialize
     token = '1188580696:AAEsv6FuEoGg2o7TrhutCKgDVVd770m-VZU'
 
@@ -15,7 +15,7 @@ class Bot
           value = values.select_random
           bot.api.send_message(chat_id: message.chat.id, text: "#{value['text']}", date: message.date)
         when '/laugh'
-          values = Joke.new
+          values = Laugh.new
           value = values.make_the_request
           bot.api.send_message(chat_id: message.chat.id, text: "#{value['joke']}", date: message.date)
         when '/stop'
