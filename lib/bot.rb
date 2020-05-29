@@ -1,7 +1,8 @@
 require 'telegram_bot'
 require_relative 'bad_code_day.rb'
+require_relative 'laughter.rb'
 
-class TelegramBot
+class Bot
   def initialize
     token = '1188580696:AAEsv6FuEoGg2o7TrhutCKgDVVd770m-VZU'
 
