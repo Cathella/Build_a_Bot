@@ -52,7 +52,3 @@ Lint/UriEscapeUnescape:
   Enabled: false
 Style/RedundantInterpolation:
   Enabled: false
-Layout/LineLength:
-  Enabled: false
-Metrics/MethodLength:
-  Enabled: false

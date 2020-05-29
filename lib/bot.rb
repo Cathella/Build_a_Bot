@@ -1,3 +1,5 @@
+# rubocop:disable Metrics/MethodLength
+# rubocop:disable Layout/LineLength
 require 'telegram_bot'
 require 'dotenv/load'
 require_relative 'bad_code_day.rb'
@@ -29,3 +31,5 @@ class Bot
     end
   end
 end
+# rubocop: enable Metrics/MethodLength
+# rubocop: enable Layout/LineLength
