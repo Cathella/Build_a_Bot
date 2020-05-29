@@ -1,10 +1,11 @@
 require 'telegram_bot'
+require 'dotenv/load'
 require_relative 'bad_code_day.rb'
 require_relative 'laughter.rb'
 
 class Bot
   def initialize
-    token = '1188580696:AAEsv6FuEoGg2o7TrhutCKgDVVd770m-VZU'
+    token = ENV['TOKEN']
 
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
