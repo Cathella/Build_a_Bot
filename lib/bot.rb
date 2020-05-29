@@ -21,7 +21,7 @@ class Bot
           value = values.make_the_request
           bot.api.send_message(chat_id: message.chat.id, text: "#{value['joke']}", date: message.date)
         when '/stop'
-          bot.api.send_message(chat_id: message.chat.id, text: "Happy Coding :)", date: message.date)
+          bot.api.send_message(chat_id: message.chat.id, text: 'Happy Coding :)', date: message.date)
         else
           bot.api.send_message(chat_id: message.chat.id, text: "I don't understand you, #{message.from.first_name}, Use  /start, /stop, /inspire or /laugh commands")
         end
