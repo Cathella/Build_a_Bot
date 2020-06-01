@@ -8,6 +8,11 @@ RSpec.describe Laugh do
     it 'should return hash response when the request is sucessful' do
       expect(request_json.class).to eql(Hash)
     end
+
+    it 'should not return a Hash when the request fails' do
+      expect(request_json.class).not_to eql(!Hash)
+    end
+
     it 'returns an array response should not be empty' do
       expect(request_json.length).not_to eql(0)
     end

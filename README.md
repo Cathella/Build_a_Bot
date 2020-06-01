@@ -12,7 +12,7 @@ Last week was the lowest time for me ever since I began my Microverse 🚶‍♀
 - Video describing how the bot works can be accessed [here](https://drive.google.com/file/d/1SWMNE1QC9Jm61J0qjmuKD9hFyjUfOh68/view?usp=sharing)
 
 ## Testing the bot
-- To run the test cases, type (rspec spec/bot_spec.rb) in your terminal.
+- To run the test cases, type (rspec spec/laugh_bot_spec.rb and inspire_bot_spec.rb) in your terminal.
 
 ## Built With
 This project was built using the following technologies.
