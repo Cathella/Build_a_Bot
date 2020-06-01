@@ -30,9 +30,9 @@ RSpec.describe Inspire do
 end
 
 RSpec.describe Laugh do
-  describe '#make_the_request' do
+  describe '#make_joke_request' do
     let(:request) { Laugh.new }
-    let(:request_json) { request.make_the_request }
+    let(:request_json) { request.make_joke_request }
     it 'should return hash response when the request is sucessful' do
       expect(request_json.class).to eql(Hash)
     end

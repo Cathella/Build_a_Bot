@@ -20,7 +20,7 @@ class Bot
           bot.api.send_message(chat_id: message.chat.id, text: "#{value['text']}", date: message.date)
         when '/laugh'
           values = Laugh.new
-          value = values.make_the_request
+          value = values.make_joke_request
           bot.api.send_message(chat_id: message.chat.id, text: "#{value['joke']}", date: message.date)
         when '/stop'
           bot.api.send_message(chat_id: message.chat.id, text: 'Happy Coding :)', date: message.date)

@@ -7,10 +7,10 @@ class Laugh
   @values = nil
 
   def initialize
-    @values = @make_the_request
+    @values = @make_joke_request
   end
 
-  def make_the_request
+  def make_joke_request
     url = 'https://api.yomomma.info'
     address = URI.escape(url)
     uri = URI.parse(address)
