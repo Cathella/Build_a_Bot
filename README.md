@@ -5,9 +5,9 @@ Last week was the lowest time for me ever since I began my Microverse 🚶‍♀
 ## How the bot works
 - Clone the project [here](https://github.com/Cathella/Build_a_Bot/tree/display_menu) if you need to add more features.
 - Navigate to project folder in terminal and run bundle to install gems reqiured for the project
-- Run "gem install dotenv" in the terminal to load values in the .env file 
+- Run "gem install dotenv" in the terminal to load values in the .env file
 - Run "ruby bin/main.rb" in the terminal and leave it open because it will be working as our server.
-- Open your desktop Telegram app and search for @nakitto_mm_bot
+- Open your desktop Telegram app and search for @BadcodedayBot
 - The bot will require the user to enter commands presented in the menu to access information provided by the bot.
 - Video describing how the bot works can be accessed [here](https://drive.google.com/file/d/1SWMNE1QC9Jm61J0qjmuKD9hFyjUfOh68/view?usp=sharing)
 
