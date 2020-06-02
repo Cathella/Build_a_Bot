@@ -1,4 +1,5 @@
 # Build a Telegram Bot 🤖
+![Telegram bot working](https://drive.google.com/file/d/1LLmYodLEEjyQ7eiAsxteq3_hXcww_oJ5/view)
 
 Last week was the lowest time for me ever since I began my Microverse 🚶‍♀ journey. My motivation percentage was at 0% 👎. I could not accomplish anything during that time frame. I have talked to some friends and they confirmed that they have experienced such times too. This is the reason I choose to take on the Telegram bot project to create a bot that can keep everyone inspired by giving an inspiration quote on request and as well to keep a smile on your face by requesting a funny joke. Just imagine coding with a 😄 smile!
 
