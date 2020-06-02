@@ -1,10 +1,10 @@
 # Build a Telegram Bot 🤖
 
-Last week was the lowest time for me ever since I began my Microverse 🚶‍♀ journey. My motivation percentage was at 0% 👎. I could not accomplish anything during that time frame. I have talked to some friends and they comfirmed that they have experienced such times too. This is the reason I choose to take on the Telegram bot project to create a bot that can keep everyone inspired by giving an inspiration quote on request and as well to keep a smile on your face by requesting a funny joke. Just imagine coding with a 😄 smile!
+Last week was the lowest time for me ever since I began my Microverse 🚶‍♀ journey. My motivation percentage was at 0% 👎. I could not accomplish anything during that time frame. I have talked to some friends and they confirmed that they have experienced such times too. This is the reason I choose to take on the Telegram bot project to create a bot that can keep everyone inspired by giving an inspiration quote on request and as well to keep a smile on your face by requesting a funny joke. Just imagine coding with a 😄 smile!
 
 ## How the bot works
 - Clone the project [here](https://github.com/Cathella/Build_a_Bot/tree/display_menu) if you need to add more features.
-- Navigate to project folder in terminal and run bundle to install gems reqiured for the project
+- Navigate to project folder in terminal and run bundle to install gems required for the project
 - Run "gem install dotenv" in the terminal to load values in the .env file
 - Run "ruby bin/main.rb" in the terminal and leave it open because it will be working as our server.
 - Open your desktop Telegram app and search for @BadcodedayBot
