@@ -9,7 +9,7 @@ Last week was the lowest time for me ever since I began my Microverse 🚶‍♀
 - Run "ruby bin/main.rb" in the terminal and leave it open because it will be working as our server.
 - Open your desktop Telegram app and search for @BadcodedayBot
 - The bot will require the user to enter commands presented in the menu to access information provided by the bot.
-- Video describing how the bot works can be accessed [here](https://drive.google.com/file/d/1SWMNE1QC9Jm61J0qjmuKD9hFyjUfOh68/view?usp=sharing)
+- Video describing how the bot works can be accessed [here](https://www.loom.com/share/9e8e6b16fb024a7aac37e486207b7dd2)
 
 ## Testing the bot
 - To run the test cases, type (rspec spec/laugh_bot_spec.rb and inspire_bot_spec.rb) in your terminal.
